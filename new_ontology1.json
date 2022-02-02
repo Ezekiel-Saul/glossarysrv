@@ -1,0 +1,624 @@
+{
+  "_comment": "Empty ontology for WebVOWL Editor [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
+  "header": {
+    "languages": [
+      "en"
+    ],
+    "baseIris": [
+      "http://www.w3.org/2000/01/rdf-schema"
+    ],
+    "iri": "http://example.com/",
+    "title": {
+      "en": "New ontology"
+    },
+    "description": "new ontology",
+    "version": "1",
+    "author": "Ezekiel"
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.62",
+      "translation": [
+        225.63,
+        41.71
+      ],
+      "paused": true
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "Class1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class3",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class4",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class6",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class7",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class8",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class9",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class10",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class11",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class12",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class13",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class14",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class15",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class16",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class17",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class18",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class21",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "Class1",
+      "iri": "http://example.com/Доступность",
+      "baseIri": "http://example.com/",
+      "label": "Доступность",
+      "pos": [
+        426.88,
+        102.21
+      ]
+    },
+    {
+      "id": "Class3",
+      "iri": "http://example.com/Юзабилити",
+      "baseIri": "http://example.com/",
+      "label": "Юзабилити",
+      "pos": [
+        132.56,
+        260.42
+      ]
+    },
+    {
+      "id": "Class4",
+      "iri": "http://example.com/WCAG",
+      "baseIri": "http://example.com/",
+      "label": "WCAG",
+      "pos": [
+        640.28,
+        4.54
+      ]
+    },
+    {
+      "id": "Class6",
+      "iri": "http://example.com/W3C",
+      "baseIri": "http://example.com/",
+      "label": "W3C",
+      "pos": [
+        925.75,
+        80.73
+      ]
+    },
+    {
+      "id": "Class7",
+      "iri": "http://example.com/HTTP",
+      "baseIri": "http://example.com/",
+      "label": "HTTP",
+      "pos": [
+        580.38,
+        793.81
+      ]
+    },
+    {
+      "id": "Class8",
+      "iri": "http://example.com/HTTPS",
+      "baseIri": "http://example.com/",
+      "label": "HTTPS",
+      "pos": [
+        615.57,
+        445.06
+      ]
+    },
+    {
+      "id": "Class9",
+      "iri": "http://example.com/URL",
+      "baseIri": "http://example.com/",
+      "label": "URL",
+      "pos": [
+        422.93,
+        622.93
+      ]
+    },
+    {
+      "id": "Class10",
+      "iri": "http://example.com/WAI-ARIA",
+      "baseIri": "http://example.com/",
+      "label": "WAI-ARIA",
+      "pos": [
+        241.31,
+        89.19
+      ]
+    },
+    {
+      "id": "Class11",
+      "iri": "http://example.com/DOM",
+      "baseIri": "http://example.com/",
+      "label": "DOM",
+      "pos": [
+        123.64,
+        498.52
+      ]
+    },
+    {
+      "id": "Class12",
+      "iri": "http://example.com/фронтенд",
+      "baseIri": "http://example.com/",
+      "label": "фронтенд",
+      "pos": [
+        456.74,
+        394.9
+      ]
+    },
+    {
+      "id": "Class13",
+      "iri": "http://example.com/Бэкенд",
+      "baseIri": "http://example.com/",
+      "label": "Бэкенд",
+      "pos": [
+        1000.8,
+        410.89
+      ]
+    },
+    {
+      "id": "Class14",
+      "iri": "http://example.com/База_данных",
+      "baseIri": "http://example.com/",
+      "label": "База данных",
+      "pos": [
+        959.73,
+        582.84
+      ]
+    },
+    {
+      "id": "Class15",
+      "iri": "http://example.com/Сервер",
+      "baseIri": "http://example.com/",
+      "label": "Сервер",
+      "pos": [
+        777.21,
+        623.22
+      ]
+    },
+    {
+      "id": "Class16",
+      "iri": "http://example.com/NodeJS",
+      "baseIri": "http://example.com/",
+      "label": "NodeJS",
+      "pos": [
+        755.96,
+        392.92
+      ]
+    },
+    {
+      "id": "Class17",
+      "iri": "http://example.com/Framework",
+      "baseIri": "http://example.com/",
+      "label": "Framework",
+      "pos": [
+        794.31,
+        251.91
+      ]
+    },
+    {
+      "id": "Class18",
+      "iri": "http://example.com/VueJS",
+      "baseIri": "http://example.com/",
+      "label": "VueJS",
+      "pos": [
+        604.69,
+        188.35
+      ]
+    },
+    {
+      "id": "Class21",
+      "iri": "http://example.com/браузеры",
+      "baseIri": "http://example.com/",
+      "label": "браузеры",
+      "pos": [
+        252.78,
+        685.54
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "objectProperty1",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty5",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty6",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty7",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty8",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty12",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty14",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty15",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty16",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty17",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty18",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty2",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty3",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty19",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty4",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty9",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty21",
+      "type": "rdfs:subClassOf"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "objectProperty1",
+      "iri": "http://example.com/objectProperty1",
+      "baseIri": "http://example.com/",
+      "label": "newObjectProperty",
+      "domain": "Class16",
+      "range": "Class15",
+      "pos": [
+        766.58,
+        508.07
+      ]
+    },
+    {
+      "id": "objectProperty5",
+      "iri": "http://example.com/objectProperty5",
+      "baseIri": "http://example.com/",
+      "label": "newObjectProperty",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class14",
+      "range": "Class13",
+      "pos": [
+        980.27,
+        496.87
+      ]
+    },
+    {
+      "id": "objectProperty6",
+      "iri": "http://example.com/objectProperty6",
+      "baseIri": "http://example.com/",
+      "label": "newObjectProperty",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class1",
+      "range": "Class12",
+      "pos": [
+        441.81,
+        248.56
+      ]
+    },
+    {
+      "id": "objectProperty7",
+      "iri": "http://example.com/objectProperty7",
+      "baseIri": "http://example.com/",
+      "label": "newObjectProperty",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class3",
+      "range": "Class12",
+      "pos": [
+        294.65,
+        327.66
+      ]
+    },
+    {
+      "id": "objectProperty8",
+      "iri": "http://example.com/objectProperty8",
+      "baseIri": "http://example.com/",
+      "label": "newObjectProperty",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class7",
+      "range": "Class15",
+      "pos": [
+        678.79,
+        708.52
+      ]
+    },
+    {
+      "id": "objectProperty12",
+      "iri": "http://example.com/objectProperty12",
+      "baseIri": "http://example.com/",
+      "label": "newObjectProperty",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class4",
+      "range": "Class6",
+      "pos": [
+        783.02,
+        42.64
+      ]
+    },
+    {
+      "id": "objectProperty14",
+      "iri": "http://example.com/objectProperty14",
+      "baseIri": "http://example.com/",
+      "label": "newObjectProperty",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class9",
+      "range": "Class7",
+      "pos": [
+        501.66,
+        708.37
+      ]
+    },
+    {
+      "id": "objectProperty15",
+      "iri": "http://example.com/objectProperty15",
+      "baseIri": "http://example.com/",
+      "label": "newObjectProperty",
+      "domain": "Class9",
+      "range": "Class8",
+      "pos": [
+        519.25,
+        533.99
+      ]
+    },
+    {
+      "id": "objectProperty16",
+      "iri": "http://example.com/objectProperty16",
+      "baseIri": "http://example.com/",
+      "label": "newObjectProperty",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class11",
+      "range": "Class12",
+      "pos": [
+        290.19,
+        446.71
+      ]
+    },
+    {
+      "id": "objectProperty17",
+      "iri": "http://example.com/objectProperty17",
+      "baseIri": "http://example.com/",
+      "label": "newObjectProperty",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class21",
+      "range": "Class9",
+      "pos": [
+        337.86,
+        654.23
+      ]
+    },
+    {
+      "id": "objectProperty18",
+      "iri": "http://example.com/objectProperty18",
+      "baseIri": "http://example.com/",
+      "label": "newObjectProperty",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class8",
+      "range": "Class15",
+      "pos": [
+        696.39,
+        534.14
+      ]
+    },
+    {
+      "id": "objectProperty2",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://example.com/",
+      "label": "Subclass of",
+      "domain": "Class16",
+      "range": "Class13",
+      "pos": [
+        878.38,
+        401.9
+      ]
+    },
+    {
+      "id": "objectProperty3",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://example.com/",
+      "label": "Subclass of",
+      "domain": "Class18",
+      "range": "Class17",
+      "pos": [
+        699.5,
+        220.13
+      ]
+    },
+    {
+      "id": "objectProperty19",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://example.com/",
+      "label": "Subclass of",
+      "domain": "Class18",
+      "range": "Class12",
+      "pos": [
+        530.72,
+        291.63
+      ]
+    },
+    {
+      "id": "objectProperty4",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://example.com/",
+      "label": "Subclass of",
+      "domain": "Class10",
+      "range": "Class1",
+      "pos": [
+        334.1,
+        95.7
+      ]
+    },
+    {
+      "id": "objectProperty9",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://example.com/",
+      "label": "Subclass of",
+      "domain": "Class4",
+      "range": "Class1",
+      "pos": [
+        533.58,
+        53.38
+      ]
+    },
+    {
+      "id": "objectProperty21",
+      "iri": "http://example.com/objectProperty21",
+      "baseIri": "http://example.com/",
+      "label": "Subclass of",
+      "domain": "Class11",
+      "range": "Class21",
+      "pos": [
+        188.21,
+        592.03
+      ]
+    }
+  ]
+}
