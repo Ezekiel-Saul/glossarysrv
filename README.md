@@ -1,2 +1,2 @@
 # glossarysrv
-glossary practice with docker
+ glossary practice vkr
